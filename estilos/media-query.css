@@ -10,3 +10,24 @@ Desktop: 992px até 1200px
 Grandes telas: acima de 1200px
 
 */
+
+@media screen and (min-width: 768px) and (max-width:992px){
+    section#login{
+        width: 80vw;
+    }
+
+    section#login > #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    sectio#login > #formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    
+}
