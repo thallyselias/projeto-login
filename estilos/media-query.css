@@ -15,6 +15,7 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 768px) and (max-width:992px){
     body{
         background-image: linear-gradient(to top, #b88b38, #6127c4 );
+        font-size: 1.5em;
     }
     section#login{
         width: 80vw;
@@ -30,6 +31,10 @@ Grandes telas: acima de 1200px
         float: right;
         width: 70%;
     }
+
+    #formulario-us-pas{
+        margin-top: 50px;
+    }
 }
 
 /* Versão para desktop */
@@ -37,6 +42,7 @@ Grandes telas: acima de 1200px
 @media screen and (min-width:992px) {
     body{
         background-image: linear-gradient(to top, #b88b38, #6127c4 );
+        font-size: 1.5em;
     }
     section#login{
         width: 990px;
@@ -51,5 +57,9 @@ Grandes telas: acima de 1200px
     section#login > #formulario{
         float: right;
         width: 50%;
+    }
+
+    #formulario-us-pas{
+        margin-top: 50px;
     }
 }

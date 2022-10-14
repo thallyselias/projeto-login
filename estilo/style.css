@@ -22,6 +22,7 @@ body,html {
     background-color:     #6127C4;
     height: 100vh;
     width: 100vw;
+    font-size: 12px;
 }
 
 main{
@@ -58,4 +59,8 @@ section#login > #imagem{
 section#login > #formulario{
     display: block;
     padding: 10px;
+}
+
+#formulario-us-pas{
+    margin-top: 20px;
 }
