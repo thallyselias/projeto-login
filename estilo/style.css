@@ -30,7 +30,6 @@ main{
     height: 100vh;
     width: 100vw;
     position: relative;
-    
 }
 
 /* Seção Login */
@@ -44,7 +43,7 @@ section#login{
 
     background-color: #ffffff;
     width: 250px;
-    height: 500px;
+    height: 530px;
     border-radius: 10px;
     transition: width 1s, height 1s;
     transition-timing-function: ease;
@@ -69,11 +68,48 @@ section#login > #formulario{
     margin-top: 20px;
 }
 
-span{
+#formulario-us-pas label{
     font-size: 12px;
+}
+
+#formulario-us-pas input{
+        background-color: transparent;
+}
+
+#formulario-us-pas > #email, #senha{
+    width: 200px;
+    padding: 5px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #340450;
+}
+
+#formulario-us-pas > #botao{
+    width: 100px;
+    padding: 7px;
+    margin-top: 20px;
+    background-color: #6127c4;
+    color: #ffff;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #00000093;
+}
+
+#formulario-us-pas > #botao:hover{
+    background-color: #551db6;
+    cursor: pointer;
+}
+
+span{
+    font-size: 10px;
     padding-left: 10px;
 }
 
 span a{
     text-decoration: none;
 }
+
+
+

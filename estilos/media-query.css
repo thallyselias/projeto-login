@@ -15,7 +15,11 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 768px) and (max-width:992px){
     body{
         background-image: linear-gradient(to right, #b88b38, #6127c4 );
-        font-size: 1.5em;
+        font-size: 1.3em;
+    }
+
+    h1{
+        font-size: 30px;
     }
     section#login{
         width: 768px;
@@ -35,6 +39,49 @@ Grandes telas: acima de 1200px
 
     #formulario-us-pas{
         margin-top: 50px;
+    }
+
+    #formulario-us-pas label{
+        font-size: 15px;
+    }
+
+    #formulario-us-pas input{
+        background-color: transparent;
+    }
+
+    #formulario-us-pas > #email, #senha{
+        width: 350px;
+        padding: 5px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: 1px solid #340450;
+    }
+
+    #formulario-us-pas > #botao{
+        width: 100px;
+        padding: 7px;
+        font-size: 1em;
+        margin-top: 20px;
+        background-image: linear-gradient(to right, #b88b38, #6127c4 );
+        color: #ffff;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #00000093;
+    }
+
+    #formulario-us-pas > #botao:hover{
+        cursor: pointer;
+    }
+
+    span{
+        font-size: 12px;
+        padding-left: 10px; 
+    }
+
+    span a{
+        text-decoration: none;
     }
 }
 
@@ -94,24 +141,27 @@ Grandes telas: acima de 1200px
 
     #formulario-us-pas > #botao{
         width: 100px;
-        padding: 3.5px;
+        padding: 7px;
         margin-top: 20px;
         background-image: linear-gradient(to right, #b88b38, #6127c4 );
         color: #ffff;
         font-weight: 600;
         border: none;
+        border-radius: 5px;
         box-shadow: 1px 1px 5px #00000093;
+    }
+
+    #formulario-us-pas > #botao:hover{
+        cursor: pointer;
     }
 
     span{
         font-size: 12px;
-        padding-left: 10px;
-        
+        padding-left: 10px; 
     }
 
     span a{
         text-decoration: none;
     }
-
     
 }
