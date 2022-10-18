@@ -42,7 +42,7 @@ section#login{
     box-shadow: 0px 0px 10px #ffff003d;
 
     background-color: #ffffff;
-    width: 250px;
+    width: 300px;
     height: 530px;
     border-radius: 10px;
     transition: width 1s, height 1s;
