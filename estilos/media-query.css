@@ -68,7 +68,7 @@ Grandes telas: acima de 1200px
         padding: 7px;
         font-size: 1em;
         margin-top: 20px;
-        background-image: linear-gradient(to right, #b88b38, #6127c4 );
+        background-color: #6127c4 );
         color: #ffff;
         font-weight: 600;
         border: none;
@@ -148,7 +148,7 @@ Grandes telas: acima de 1200px
         width: 100px;
         padding: 7px;
         margin-top: 20px;
-        background-image: linear-gradient(to right, #b88b38, #6127c4 );
+        background-color:  #6127c4 );
         color: #ffff;
         font-weight: 600;
         border: none;
