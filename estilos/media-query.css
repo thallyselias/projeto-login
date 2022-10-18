@@ -16,6 +16,7 @@ Grandes telas: acima de 1200px
     body{
         background-image: linear-gradient(to right, #b88b38, #6127c4 );
         font-size: 1.3em;
+        box-sizing: border-box;
     }
 
     h1{
