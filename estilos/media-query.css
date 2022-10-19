@@ -107,7 +107,8 @@ Grandes telas: acima de 1200px
     }
 
     p{
-        font-size: 15px;
+        font-size: 1.7rem;
+        margin-top: 30px;
     }
 
     section#login{
@@ -149,7 +150,8 @@ Grandes telas: acima de 1200px
 
     #formulario-us-pas > #botao{
         width: 100px;
-        padding: 7px;
+        padding: 10px;
+        font-size: 1.30rem;
         margin-top: 20px;
         background-color:  #6127c4;
         color: #ffff;
