@@ -80,15 +80,18 @@ Grandes telas: acima de 1200px
         cursor: pointer;
     }
 
-    span{
+    .span{
         font-size: 12px;
-        padding-left: 10px; 
+        margin-top: 12px; 
     }
 
     span a{
         text-decoration: none;
     }
+
+    /* Final versão tablet */
 }
+
 
 /* Versão para desktop */
 
@@ -160,13 +163,13 @@ Grandes telas: acima de 1200px
         cursor: pointer;
     }
 
-    span{
+    .span{
         font-size: 12px;
-        padding-left: 10px; 
+        margin-top: 30px;
     }
 
     span a{
         text-decoration: none;
     }
-    
+    /* Final da versão desktop */
 }
